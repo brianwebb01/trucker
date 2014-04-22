@@ -104,7 +104,7 @@ class Collection implements \Iterator
      *
      * @see  Iterator
      * 
-     * @return Trucker\Resource\Model
+     * @return boolean
      */
     public function valid()
     {
@@ -183,7 +183,7 @@ class Collection implements \Iterator
      *
      * @param  string $collectionKey 
      * @param  string $metaKey
-     * @return array
+     * @return string
      */
     public function toJson($collectionKey = null, $metaKey = 'meta')
     {

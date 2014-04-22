@@ -24,6 +24,7 @@ interface QueryResultOrderInterface
      * but rather through the service provider
      * 
      * @param Container $app
+     * @return void
      */
     public function __construct(Container $app);
 
@@ -42,6 +43,7 @@ interface QueryResultOrderInterface
      * should be ordered by
      * 
      * @param string $propertyName
+     * @return void
      */
     public function setOrderByField($propertyName);
 
@@ -51,6 +53,7 @@ interface QueryResultOrderInterface
      * should be sorted by, ascending, descending.
      * 
      * @param string $direction
+     * @return void
      */
     public function setOrderDirection($direction);
 

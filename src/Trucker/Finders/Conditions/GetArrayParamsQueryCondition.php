@@ -96,7 +96,7 @@ class GetArrayParamsQueryCondition implements QueryConditionInterface
      * Function to return a new popuplated instance,
      * typically this would be called from the Facade.
      * 
-     * @return Trucker\Finders\Conditions\GetArrayParamsQueryCondition
+     * @return GetArrayParamsQueryCondition
      */
     public function newInstance()
     {

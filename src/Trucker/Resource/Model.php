@@ -10,7 +10,6 @@
  */
 namespace Trucker\Resource;
 
-use Trucker\Facades\Response;
 use Trucker\Facades\Instance;
 use Trucker\Facades\Collection;
 use Trucker\Facades\UrlGenerator;
@@ -499,7 +498,7 @@ class Model
      *
      * @param  int           $id          The primary identifier value for the record
      * @param  array         $getParams   Array of GET parameters to pass
-     * @param  Trucker\Resource\Model $instance An instance to use for interpreting url values
+     * @param  Model $instance An instance to use for interpreting url values
      * @return Trucker\Resource\Model              An instance of the entity requested
      */
     public static function find($id, $getParams = [], Model $instance = null)

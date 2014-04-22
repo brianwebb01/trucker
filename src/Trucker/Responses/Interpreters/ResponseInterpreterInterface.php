@@ -23,6 +23,7 @@ interface ResponseInterpreterInterface
      * Constructor to setup the interpreter
      * 
      * @param Container $app      
+     * @return void
      */
     public function __construct(Container $app);
 

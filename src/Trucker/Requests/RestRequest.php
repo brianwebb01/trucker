@@ -129,7 +129,6 @@ class RestRequest implements RequestableInterface
      * Function to set given file parameters
      * on the request
      *
-     * @param array $params File parameters to set
      */
     public function setBody($body, $contentType = null)
     {
@@ -222,7 +221,7 @@ class RestRequest implements RequestableInterface
      * Function to add an error handler to the request.  This could be used
      *
      * @param int     $httpStatus      HTTP status to error handle (-1 matches all)
-     * @param Closure $func            Function to call on error
+     * @param \Closure $func            Function to call on error
      * @param boolean $stopPropagation Boolean as to wether to stop event propagation
      */
     public function addErrorHandler($httpStatus, \Closure $func, $stopPropagation = true)

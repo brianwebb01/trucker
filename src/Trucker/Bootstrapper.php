@@ -72,7 +72,7 @@ class Bootstrapper
     /**
      * Export the configuration files
      *
-     * @return void
+     * @return string
      */
     public function exportConfiguration()
     {

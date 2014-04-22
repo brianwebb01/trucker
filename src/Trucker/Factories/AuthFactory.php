@@ -10,7 +10,6 @@
  */
 namespace Trucker\Factories;
 
-use Illuminate\Container\Container;
 use Trucker\Framework\FactoryDriver;
 use Trucker\Facades\Config;
 

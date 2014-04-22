@@ -67,7 +67,7 @@ class GetParamsResultOrder implements QueryResultOrderInterface
      * Function to create a new instance that should
      * be setup with the IoC Container etc
      * 
-     * @return QueryConditionInterface
+     * @return GetParamsResultOrder
      */
     public function newInstance()
     {

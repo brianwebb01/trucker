@@ -55,7 +55,7 @@ class CollectionFinder
      * @param  QueryConditionInterface    $condition   Query conditions for the request
      * @param  QueryResultOrderInterface  $resultOrder Result ordering requirements for the request
      * @param  array                      $getParams   Additional GET parameters to send w/ request
-     * @return Trucker\Responses\Collection
+     * @return Collection
      */
     public function fetch(
         Model $model,

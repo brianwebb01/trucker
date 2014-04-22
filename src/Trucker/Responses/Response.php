@@ -35,7 +35,6 @@ class Response
      * Build a new RequestManager
      *
      * @param Container $app
-     * @param Client    $client
      */
     public function __construct(Container $app, \Guzzle\Http\Message\Response $response = null)
     {
@@ -82,7 +81,7 @@ class Response
      *
      * @param  Container $app
      * @param  \Guzzle\Http\Message\Response $response
-     * @return \Trucker\Response
+     * @return Response
      */
     public function newInstance(Container $app, \Guzzle\Http\Message\Response $response)
     {

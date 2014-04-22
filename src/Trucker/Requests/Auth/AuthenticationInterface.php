@@ -19,6 +19,7 @@ interface AuthenticationInterface
      * but rather through the Factory
      * 
      * @param Container $app
+     * @return void
      */
     public function __construct(Container $app);
 

@@ -37,7 +37,6 @@ class InstanceFinder
      * Build a new InstanceFinder
      *
      * @param Container $app
-     * @param Client    $client
      */
     public function __construct(Container $app)
     {

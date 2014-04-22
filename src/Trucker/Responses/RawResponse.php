@@ -43,7 +43,7 @@ class RawResponse
      * Constructor
      * 
      * @param boolean                     $successful 
-     * @param Trucker\Responses\Response  $response  
+     * @param Response  $response  
      * @param array                       $errors     
      */
     public function __construct($successful = false, \Trucker\Responses\Response $response = null, array $errors = array())

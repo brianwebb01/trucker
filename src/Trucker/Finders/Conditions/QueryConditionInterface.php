@@ -23,6 +23,7 @@ interface QueryConditionInterface
      * but rather through the service provider
      * 
      * @param Container $app
+     * @return void
      */
     public function __construct(Container $app);
 

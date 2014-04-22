@@ -17,7 +17,7 @@ class JsonTransporter implements TransporterInterface
      * Function to set the appropriate headers on a request object
      * to facilitate a JSON transport
      *
-     * @param GuzzleHttpMessageRequest $request
+     * @param \Guzzle\Http\Message\Request $request
      */
     public function setHeaderOnRequest(\Guzzle\Http\Message\Request &$request)
     {
@@ -31,7 +31,7 @@ class JsonTransporter implements TransporterInterface
      * Function to convert a response object into an associative
      * array of data
      * 
-     * @param  GuzzleHttpMessageResponse $response
+     * @param  \Guzzle\Http\Message\Response $response
      * @return array
      */
     public function parseResponseToData(\Guzzle\Http\Message\Response $response)
@@ -43,7 +43,7 @@ class JsonTransporter implements TransporterInterface
      * Function to parse the response string into an object
      * specific to JSON
      * 
-     * @param  GuzzleHttpMessageResponse $response
+     * @param  \Guzzle\Http\Message\Response $response
      * @return stdClass
      */
     public function parseResponseStringToObject(\Guzzle\Http\Message\Response $response)

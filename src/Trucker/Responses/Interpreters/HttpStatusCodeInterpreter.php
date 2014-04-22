@@ -91,7 +91,7 @@ class HttpStatusCodeInterpreter implements ResponseInterpreterInterface
      *
      * Currently supports:
      *
-     * @param $option
+     * @param string $option
      * @param $status
      *
      * @return bool

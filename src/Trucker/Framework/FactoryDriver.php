@@ -97,7 +97,7 @@ abstract class FactoryDriver
      * Function to return the interface that the driver's produced
      * by the factory must implement
      * 
-     * @return Interface
+     * @return string
      */
     abstract public function getDriverInterface();
 
